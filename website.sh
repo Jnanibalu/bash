@@ -2,7 +2,7 @@
 
  set -x
  
- web_url="https://unacademy.com"
+ web_url="http://www.example.com"
  
  response_code=$(curl -s -o /dev/null -w "%{http_code}" "$web_url")
   
